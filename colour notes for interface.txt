@@ -1,5 +1,7 @@
 red: #F76565
+  view.layer.backgroundColor = UIColor(red: 0.97, green: 0.4, blue: 0.4, alpha: 1).cgColor
 green-blue-ish: #79C6CB
+  view.layer.backgroundColor = UIColor(red: 0.48, green: 0.78, blue: 0.79, alpha: 1).cgColor
 white:#FFFFFF
 bottom-light-grey:#EFEFEF
 bottom-grey:#C4C4C4
