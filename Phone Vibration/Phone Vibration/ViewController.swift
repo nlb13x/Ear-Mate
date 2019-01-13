@@ -20,9 +20,7 @@ class ViewController: UIViewController {
         //view.backgroundColor = UIColor.black
     AudioServicesPlayAlertSound(SystemSoundID(kSystemSoundID_Vibrate))
         
-        
-        
-    }
+        }
     
 }
 
