@@ -316,10 +316,36 @@
                                     <segue destination="AZa-vJ-Kg9" kind="unwind" unwindAction="unwindFor:" id="eP6-0p-e6Q"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aH-ia-kRm">
+                                <rect key="frame" x="16" y="89" width="343" height="437"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0G8-BV-dcG">
+                                <rect key="frame" x="40" y="28" width="59" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START"/>
+                                <connections>
+                                    <action selector="startButtonTapped:" destination="Wmf-a1-4YG" eventType="touchUpInside" id="AaO-S1-Uca"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEJ-uR-6ES">
+                                <rect key="frame" x="291" y="28" width="41" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="END"/>
+                                <connections>
+                                    <action selector="endButtonTapped:" destination="Wmf-a1-4YG" eventType="touchUpInside" id="W83-Tk-tgA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lHw-hZ-ogd"/>
                     </view>
+                    <connections>
+                        <outlet property="detectedTextLabel" destination="1aH-ia-kRm" id="wkS-Q7-zuP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7NP-8A-7ya" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="AZa-vJ-Kg9" userLabel="Exit" sceneMemberID="exit"/>
