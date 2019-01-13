@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var right2: UIButton!
     @IBOutlet weak var right3: UIButton!
     
-
+    
     @IBAction func textButton(_ sender: UIButton) {
         self.performSegue(withIdentifier: "segue_text", sender: self)
     }
@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         
         
     }
-
-
+    
+    
 }
 
