@@ -1,0 +1,9 @@
+red: #F76565
+green-blue-ish: #79C6CB
+white:#FFFFFF
+bottom-light-grey:#EFEFEF
+bottom-grey:#C4C4C4
+bottom-darkest-grey:#A7A7A7
+bottom-blue:#BADCD8
+
+font: Ove(for text) and Overpass(for setting)
