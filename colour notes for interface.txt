@@ -4,6 +4,8 @@ green-blue-ish: #79C6CB
   view.layer.backgroundColor = UIColor(red: 0.48, green: 0.78, blue: 0.79, alpha: 1).cgColor
 white:#FFFFFF
 bottom-light-grey:#EFEFEF
+  view.layer.backgroundColor = UIColor(red: 0.94, green: 0.94, blue: 0.94, alpha: 1).cgColor
+  view.layer.cornerRadius = 10
 bottom-grey:#C4C4C4
 bottom-darkest-grey:#A7A7A7
 bottom-blue:#BADCD8
