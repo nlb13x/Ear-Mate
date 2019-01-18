@@ -150,9 +150,9 @@ class ViewController: UIViewController, SFSpeechRecognizerDelegate {
             return true
         case "hey":
             return true
-        case "rain":
+        case "Jhon":
             return true
-        case "cat":
+        case "Yo":
             return true
         case "dog":
             return true
